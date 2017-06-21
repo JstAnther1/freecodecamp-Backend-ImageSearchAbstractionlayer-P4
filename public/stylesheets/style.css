@@ -1,0 +1,26 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.titling1{
+  font-size:40px;
+}
+.titling2{
+  font-size:20px;
+}
+.mar1{
+  margin: 0px;
+  list-style-type: decimal-leading-zero;
+}
+.mar2{
+  margin:0px;
+  list-style-type: none;
+  color: red;
+}
+.mar3{
+  margin:0px;
+}

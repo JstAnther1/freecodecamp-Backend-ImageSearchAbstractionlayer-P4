@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  p.titling1
+    strong MrUnk's ImageSearchAbstractionLayer
+  p.titling2 
+    strong Conditions: 
+
+  ul.mar1
+    li Get image URLs, description and page urls for images related to search term 
+    li Pagination through alteration of offset value
+    li Get list of recently submitted search strings
+  
+  p.titling2 
+    strong Example Usage: 
+
+  ul.mar2
+    li.mar3 localhost:3000/api/imagesearch/cats%20funny?offset=1
+    li.mar3 localhost:3000/api/recent/
+
+  p.titling2 
+    strong Example Output: 
+
+  ul.mar2 
+    li.mar3 Returns first page of 10 results. (Pages can be scrolled through by adjusting offset equalling values >1) 
+    li.mar3 Returns what others have been searching for
